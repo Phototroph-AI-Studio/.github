@@ -4,14 +4,13 @@
 
 ---
 
-## 🧭 一、 雙軌環境與正式發布網址
+## 🧭 一、 線上正式發布網址與維運環境
 
-| 站點類型 | 線上正式網址 | 部署來源倉庫與分支 | 說明 |
-| :--- | :--- | :--- | :--- |
-| **公司精簡發布版** | `https://ai-studio-9rm.pages.dev/` | `Phototroph-AI-Studio/AI-Studio` (`main`) | 提供同仁與日常業務操作之穩定精簡版本。 |
-| **旗艦完整開發版** | `https://leroy-studio.pages.dev/` | `clleeolin-beep/AI-studio` (`main`) | 具備氣象深度分析、CFD 風場模擬與完整空間工具。 |
-
-> 所有網頁由 **Cloudflare Pages** 監控 Git 自動化觸發部署，**無需手動執行 npm build 或配置伺服器**。
+| 項目 | 規格與路徑 | 說明 |
+| :--- | :--- | :--- |
+| **線上正式發布站點** | `https://ai-studio-9rm.pages.dev/` | 提供同仁與日常業務操作之正式發布版本。 |
+| **部署來源儲存庫** | `Phototroph-AI-Studio/AI-Studio` | 專案唯一官方原始碼倉庫（鎖定 `main` 分支）。 |
+| **自動化部署機制** | **Cloudflare Pages** | 由 Cloudflare 監控 GitHub `main` 分支自動觸發發布，**無需手動執行 npm build 或配置伺服器**。 |
 
 ---
 
@@ -59,5 +58,4 @@
 
 ## 📞 五、 技術諮詢與權限申請
 
-* **系統維運負責人**：Leroy Lee (`cl.lee.olin@gmail.com`)
-* 若遇權限配置調整、新增外部 API 介接或 Google 試算表資料表欄位異動，請先與負責人對齊規格後再行修改。
+* 若遇權限配置調整、新增外部 API 介接或 Google 試算表資料表欄位異動，請先與專案管理團隊對齊規格後再行修改。
